@@ -1,0 +1,56 @@
+body {
+    background-color: whitesmoke;
+    font-family: Avenir, Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome .container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.welcome .container p {
+    font-size: 80px;
+}
+
+.about .container p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 8px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact h2 {
+    padding-bottom: 15px;
+}
+
