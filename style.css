@@ -1,6 +1,11 @@
 body {
     background-color: whitesmoke;
     font-family: Avenir, Arial, sans-serif;
+/*    color: #ffffff;*/
+    background: url(img/1.jpg) no-repeat center scroll;
+    background-size: cover;
+/*    background-color: #ffffff;*/
+
 }
 
 p {
@@ -19,8 +24,13 @@ li {
     padding: 5px;
 }
 
-a {
+a{
+/*    color: #ffffff;*/
+}
+a:hover,
+a:focus {
     text-decoration: none;
+    color: #1d9b6c;
 }
 
 .welcome .container {
@@ -33,24 +43,34 @@ a {
 }
 
 .about .container p {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 8px;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .about {
     text-align: center;
     margin-top: 40px;
     border: 2px solid black;
-    padding: 8px;
+    padding: 3px;
+    padding-top: 15px;
 }
 
 .contact {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .contact h2 {
     padding-bottom: 15px;
 }
 
+footer {
+    padding: 20px 0;
+}
+
+footer p {
+    color: 
+    margin: 0;
+}
