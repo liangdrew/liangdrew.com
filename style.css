@@ -111,9 +111,17 @@ a:focus {
     padding-bottom: 15px;
 }
 
+.contact .list-links {
+    padding-right: 40px;  /* This centers the contacts links for some reason */
+} 
+
 .myname-section {
     width: 100%;
     background-color: aliceblue;
+}
+
+.myname-section h2 {
+    padding-top: 20px;
 }
 
 .myname-section p {
