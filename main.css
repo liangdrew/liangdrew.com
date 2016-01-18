@@ -39,9 +39,13 @@ a:focus {
     color: #1d9b6c;
 }
 
-.navbar-header a {
-    font-size: 20px;
-    color: #000;
+.navbar-default .navbar-brand {
+        font-size: 20px;
+        color: #000;
+}
+
+.navbar-right li a {
+    font-size: 22px;
 }
 
 .intro {
@@ -188,7 +192,6 @@ a:focus {
     .navbar-default .navbar-brand {
         font-size: 30px;
         padding-top: 30px;
-        color: #000;
     }
     
     .welcome .container p { /* I am Andrew */

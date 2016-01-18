@@ -21,12 +21,20 @@ h2 {                        /* Individual project titles */
     text-align: center;
 }
 
+.navbar-default .navbar-brand {
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-right li a {
+    font-size: 22px;
+}
+
 @media(min-width:768px) {
     
     .navbar-default .navbar-brand {
         font-size: 30px;
         padding-top: 30px;
-        color: #000;
     }
     
     ul {
