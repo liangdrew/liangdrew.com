@@ -44,6 +44,10 @@ a:focus {
         color: #000;
 }
 
+.navbar-default .navbar-brand:hover {
+        color: #1d9b6c;
+}
+
 .navbar-right li a {
     font-size: 22px;
 }
@@ -73,16 +77,21 @@ a:focus {
     margin-top: 40px;
 }
 
-.welcome .container p {   /* I am Andrew */
+.welcome .container p {   /* Andrew Liang */
+    text-align: center;
     font-size: 60px;
-    padding-top: 30px;
+    padding-top: 40px;
     line-height: 60px;
 }
 
-.welcome .container h1 {    /* Or as some call me */
+.welcome .container h2 {
+    text-align: center;
+}
+/*
+.welcome .container h1 {     Or as some call me 
     font-size: 30px;
     line-height: 40px;
-}
+}*/
 
 .welcome .container p a {
     color: #000000;
@@ -203,16 +212,23 @@ a:focus {
     }
     
     .welcome .container p { /* I am Andrew */
-        font-size: 80px;
+        font-size: 100px;
         padding-top: 80px;
         line-height: 80px;
     }
     
-     .welcome .container h1 {    /* Or as some call me */
+    .welcome .container h2 {  /* Mob dev*/
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    
+/*
+     .welcome .container h1 {     Or as some call me 
         font-size: 40px;
         line-height: 50px;
         padding-top: 20px;
-    }
+    }      
+*/
     
      .intro .about .container p {
         font-size: 22px;
