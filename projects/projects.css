@@ -23,6 +23,12 @@ h2 {                        /* Individual project titles */
 
 @media(min-width:768px) {
     
+    .navbar-default .navbar-brand {
+        font-size: 30px;
+        padding-top: 30px;
+        color: #000;
+    }
+    
     ul {
         padding-top: 15px;
         padding-bottom: 8px;
@@ -50,7 +56,7 @@ html {
 
 h1 {                     /* My Projects title*/
     text-align: center;
-    padding-top: 75px;
+    padding-top: 85px;
     font-size: 50px;
 }
     
