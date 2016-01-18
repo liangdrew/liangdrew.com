@@ -76,7 +76,7 @@ a:focus {
 .welcome .container p {   /* I am Andrew */
     font-size: 60px;
     padding-top: 30px;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .welcome .container h1 {    /* Or as some call me */
@@ -188,7 +188,7 @@ a:focus {
     }
     
      .intro .about .container p {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 40px;
         padding-left: 20px;
         padding-right: 20px;
@@ -207,6 +207,10 @@ a:focus {
         line-height: 40px;
         padding-top: 20px;
     }
+    
+    .contact p{
+        font-size: 22px;
+    }
 }
 
 footer {
@@ -215,7 +219,7 @@ footer {
 }
 
 footer p {
-/*    border: 2px solid black;*/
+    font-size: 20px;
     margin: 0;
 }
 
