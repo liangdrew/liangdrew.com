@@ -13,18 +13,6 @@ html {
     height: 100%;
 }
 
-ul {
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 10px;
-}
-
-li {
-    list-style-type: none;
-    display: inline;
-    padding: 5px;
-}
-
 a{
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -51,8 +39,8 @@ a:focus {
     color: #1d9b6c;
 }
 
-.navbar-left li a {
-    font-size: 26px;
+.navbar-header a {
+    font-size: 20px;
     color: #000;
 }
 
@@ -112,9 +100,19 @@ a:focus {
     padding-bottom: 15px;
 }
 
-.contact .list-links {
-    padding-right: 40px;  /* This centers the contacts links for some reason */
+.contact .list-links li {
+    padding: 5px;
+    list-style-type: none;
+    display: inline;
 } 
+
+.contact .list-links {
+    padding: 5px;
+} 
+
+.contact p{
+    font-size: 22px;
+}
 
 .myname-section {
     width: 100%;
@@ -182,9 +180,25 @@ a:focus {
 
 @media(min-width:768px) {
     
+    ul {
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    
+    .navbar navbar-default navbar-fixed-top topnav .container topnav .navbar-header a {
+        color: #000;
+    }
+    
     .welcome .container p { /* I am Andrew */
         font-size: 80px;
-        padding-top: 100px;
+        padding-top: 80px;
+        line-height: 80px;
+    }
+    
+     .welcome .container h1 {    /* Or as some call me */
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 20px;
     }
     
      .intro .about .container p {
@@ -200,16 +214,6 @@ a:focus {
         padding-top: 20px;
         line-height: 40px;
         text-align: justify;
-    }
-
-    .welcome .container h1 {    /* Or as some call me */
-        font-size: 40px;
-        line-height: 40px;
-        padding-top: 20px;
-    }
-    
-    .contact p{
-        font-size: 22px;
     }
 }
 

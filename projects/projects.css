@@ -23,6 +23,11 @@ h2 {                        /* Individual project titles */
 
 @media(min-width:768px) {
     
+    ul {
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    
     p {
         font-size: 18px;
         line-height: 30px;
@@ -69,12 +74,6 @@ h3 {                      /* Projects subtitle */
 
 .contact p {
     text-align: center;
-}
-
-ul {
-    text-align: center;
-    padding-top: 10px;
-    padding-right: 10px;
 }
 
 li {
