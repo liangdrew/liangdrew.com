@@ -3,9 +3,7 @@ body {
     height: 100%;
     background-color: whitesmoke;
     font-family: Avenir, Arial, sans-serif;
-/*    color: #ffffff;*/
     background-size: cover;
-/*    webkit-tap-highlight-color: rgba(255,255,255,.2);*/
 }
 
 html {
@@ -13,11 +11,11 @@ html {
     height: 100%;
 }
 
-a{
+a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #0067b2;
+    color: #238cd8;
 }
 
 a:hover,
@@ -55,11 +53,6 @@ a:focus {
 
 .Projects, .Resume {
     font-weight: 500;
-/*    color: #0067b2;*/
-}
-
-.Projects:hover, .Resume:hover {
-    color: #1d9b6c;
 }
 
 .intro {
@@ -67,20 +60,11 @@ a:focus {
     height: auto;
     text-align: center;
     background-color: whitesmoke;
-/*    background: url(img/code.jpg) no-repeat center scroll;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-
-/*
-.background-image {
-    background: url(img/code.jpg) no-repeat center scroll;
-    filter: blur(5px);
-    -webkit-filter: blur(5px);
-}
-*/
 
 .welcome .container {
     text-align: center;
@@ -101,13 +85,7 @@ a:focus {
 }
 
 .Andrew {
-/*
-    color: #003366;
-    color: #54748b;
-    color: #ff5050;
-    color: #104e8b;
-*/
-    color: #0067b2;
+    color: #238cd8;
 }
 
 .welcome .container p a {
@@ -172,14 +150,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-/*    background: url(1.jpg) no-repeat center center scroll;*/
     background-color: #000;
-/*
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-*/
 }
 
 @-webkit-keyframes pulse {    
@@ -284,9 +255,3 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
-
-/*
-img {
-    opacity: 0.9;
-    filter: alpha(opacity=40);  For IE8 and earlier 
-}*/
