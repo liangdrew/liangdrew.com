@@ -226,16 +226,6 @@ a:focus {
     }
 }
 
-footer {
-    padding-top: 20px;
-    background-color: whitesmoke;
-}
-
-footer p {
-    font-size: 20px;
-    margin: 0;
-}
-
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;

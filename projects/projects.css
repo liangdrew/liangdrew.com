@@ -3,9 +3,7 @@ body {
     height: 100%;
     background-color: whitesmoke;
     font-family: Avenir, Helvetica Neue, Arial, sans-serif;
-/*    color: #ffffff;*/
     background-size: cover;
-/*    webkit-tap-highlight-color: rgba(255,255,255,.2);*/
 }
 
 html {
@@ -20,10 +18,12 @@ li {
     padding: 5px;
 }
 
-a{
+a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    color: #238cd8;
+    font-weight: 500;
 }
 
 a:hover,
@@ -40,7 +40,6 @@ a:focus {
 
 .navbar .nav > li > a {
     color: #000000;
-/*    font-family: Helvetica Neue, Arial, sans-serif;*/
 }
 
 .navbar .nav > li > a:hover{
@@ -56,9 +55,12 @@ a:focus {
     padding-top: 20px;
 }
 
-a {
-    color: #0067b2;
-    font-weight: 500;
+.My {
+    color: #238cd8;
+}
+
+.Andrew {
+    color: #238cd8;   
 }
 
 p {
@@ -87,43 +89,20 @@ h2 {                        /* Individual project titles */
     text-align: center;
 }
 
-.Projects:hover {
-    color: #1d9b6c;
-}
-
 .navbar-default .navbar-brand {
-        font-size: 20px;
-        color: #000;
+    font-size: 20px;
+    color: #000;
 }
 
 .navbar-default .navbar-brand:hover {
-        color: #1d9b6c;
+    color: #1d9b6c;
 }
 .navbar-right li a {
     font-size: 22px;
 }
 
-.Andrew {
-/*
-    color: #003366;
-    color: #54748b;
-    color: #ff5050;
-    color: #104e8b;
-*/
-    color: #0067b2;
-}
-
-.My {
-    color: #0067b2;
-}
-
 .Projects, .Resume {
     font-weight: 500;
-/*    color: #0067b2;*/
-}
-
-.Projects:hover, .Resume:hover {
-    color: #1d9b6c;
 }
 
 @media(min-width:768px) {
@@ -180,13 +159,4 @@ h2 {                        /* Individual project titles */
     text-align: center;
     font-size: 22px;
     padding-top: 5px;
-}
-
-footer {
-    padding-top: 20px;
-    background-color: whitesmoke;
-}
-
-footer p {
-    text-align: center;
 }
