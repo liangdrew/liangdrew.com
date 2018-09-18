@@ -114,11 +114,13 @@ a:focus {
 
 .written-works {
     margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .contact {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .contact h2 {
@@ -210,7 +212,7 @@ a:focus {
     
     .welcome .container p { /* Andrew Liang */
         font-size: 60px;
-        padding-top: 60px;
+        padding-top:45px;
         line-height: 80px;
     }
     
