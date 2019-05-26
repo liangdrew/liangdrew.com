@@ -113,9 +113,11 @@ a:focus {
 }
 
 .written-works {
+    text-align: center;
     margin-top: 40px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 .contact {
@@ -220,7 +222,7 @@ a:focus {
         font-size: 35px;
     }
     
-     .intro .about .container p {
+    .intro .about .container p {
         font-size: 22px;
         line-height: 40px;
         padding-left: 20px;
