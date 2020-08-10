@@ -79,14 +79,8 @@ a:focus {
 .welcome .container p {   /* Andrew Liang */
     text-align: center;
     font-size: 44px;
-    padding-top: 50px;
+    margin-top: 50px;
     line-height: 60px;
-}
-
-.welcome .container h2 {  /* Soft Dev */
-    margin-top: 10px;
-    font-size: 28px;
-    text-align: center;
 }
 
 .Andrew {
